@@ -101,3 +101,16 @@
   height: 90vh;
   border-radius: 5px;
 }
+.card{
+    display: flex;
+}
+.product{
+    margin: 70px;
+    background-color: #ff9900;
+    border-radius: 5px;
+}
+.product img{
+    height: 200px;
+    width: 200px;
+    background-color: #f2f2f2;
+}
