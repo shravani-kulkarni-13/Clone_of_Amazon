@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar{
+    background-color: #000000;
+    color: #fff;
+    display: flex;
+    margin: auto;
+    padding-top: 15px;
+}
+.logo img{
+    height: 60px;
+    width: 90px;
+}
+.loc{
+    padding-left: 30px;
+    font-size: large;
+}
+.loc span{
+    color: rgb(196, 193, 193);
+}
+.loc img{
+    height: 30px;
+    width: 30px;
+}
+.dropdown {
+    padding-left: 30px;
+}
+.dropdown select{
+    background-color: rgb(238, 235, 235);
+    border: 1px solid rgb(238, 235, 235);
+    height: 30px;
+    width: 40px;
+}
+.search{
+    padding-right: 30px;
+}
+.search img{
+    background-color: #ff9900;
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+}
+.india img{
+    height: 30px;
+    width: 30px;
+}
+.india span{
+    font-weight: bold;
+}
+.navbar input{
+    height: 30px;
+    width: 35%;
+    border: 1px solid rgb(238, 235, 235);
+    padding-left: 10px;
+    font-size: 15px;
+}
+.acc{
+    padding-left: 30px;
+}
+.acc span{
+    font-size: large;
+}
+.return{
+    padding-left: 30px;
+}
+.return span{
+    font-size: large;
+}
+.cart {
+    padding-left: 30px;
+    font-weight: bold;
+}
+.cart img{
+    height: 35px;
+    width: 35px;
+}
+.navbar2{
+    background-color: #232f3e;
+    color: #fff;
+    font-size: large;
+    padding: 30px;
+}
+.navbar2 ul li{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 15px;
+    margin: auto;
+}
+.navbar2 i{
+    color: #fff;
+    cursor: pointer;
+}
+
+.carousel-cell {
+  width: 200%;
+  height: 90vh;
+  border-radius: 5px;
+}

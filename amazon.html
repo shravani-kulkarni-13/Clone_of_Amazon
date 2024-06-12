@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="amazon_favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="amazon_favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="amazon_favicon/favicon-16x16.png">
+    <link rel="manifest" href="amazon_favicon/site.webmanifest">
+
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="amazon.css">
+</head>
+<body>
+    <div class="container">
+
+        <nav class="navbar">
+            <div class="logo">
+                <img src="Amazon2.png" alt="">
+            </div>
+
+            <div class="loc" ><span>Delivering to Mumbai 400001</span><br>
+                <img src="location.png" alt="">Update Location
+            </div>
+
+            <div class="dropdown">
+            <select name="All" id="products_name">
+                <option value="all">All</option>
+                <option value="beauty">Beauty</option>
+                <option value="kids">Kids</option>
+                <option value="watch">Watch</option>
+                <option value="home decor">Home Decor</option>
+                <option value="mobile">Mobile</option>
+            </select>
+            </div>
+
+            <input type="text" placeholder="Search Amazon.in">
+            <div class="search">
+                <img src="searchicon.png" alt="">
+            </div>
+
+            <div class="india">
+                <img src="india_logo.png" alt=""><span>EN</span>
+            </div>
+
+            <div class="acc">
+                <p>Hello,sign in<br><span>Account & Lists</span></p>
+            </div>
+
+            <div class="return">
+                <p>Returns<br><span>& Orders</span></p>
+            </div>
+
+            <div class="cart">
+                <img src="cart.png" alt="">Cart
+            </div>
+        </nav>
+
+        <nav class="navbar2">
+            <ul>
+                <i class="fa-solid fa-bars"></i>
+                <li>All</li>
+                <li>Amazon miniTV</li>
+                <li>Sell</li>
+                <li>Best Sellers</li>
+                <li>Today's Deals</li>
+                <li>Mobiles</li>
+                <li>Fashion</li>
+                <li>Electronics</li>
+                <li>Prime</li>
+                <li>Home & Kitchen</li>
+                <li>Customer Service</li>
+                <li>Amazon Pay</li>
+                <li>Computers</li>
+            </ul>
+        </nav>
+
+            <!-- Flickity HTML init -->
+            <div class="carousel" data-flickity='{ "wrapAround": true }'>
+                <div class="carousel-cell"><img src="photo4.jpg" alt=""></div>
+                <div class="carousel-cell"><img src="photo2.jpg" alt=""></div>
+                <div class="carousel-cell"><img src="photo3.jpg" alt=""></div>
+                <div class="carousel-cell"><img src="photo1.jpg" alt=""></div>
+                <div class="carousel-cell"><img src="photo5.jpg" alt=""></div>
+                <div class="carousel-cell"><img src="photo6.jpg" alt=""></div>
+                <div class="carousel-cell"><img src="photo7.jpg" alt=""></div>
+            </div>
+
+            <div class="cards">
+                <div class="product">
+                    <img src="lipstick.jpg" alt="">
+                    <p>Lipstick<br>
+                        $50
+                    </p>
+                    <button>Add to cart</button>
+                </div>
+                <div class="product">
+                    <img src="foundation.jpg" alt="">
+                    <p>Foundation<br>
+                        $100
+                    </p>
+                    <button>Add to cart</button>
+                </div>
+                <div class="product">
+                    <img src="kajal&eyeliner.jpg" alt="">
+                    <p>Kajal & Eyeliner Combo<br>
+                        $90
+                    </p>
+                    <button>Add to cart</button>
+                </div>
+                <div class="product">
+                    <img src="eyeshadow.jpg" alt="">
+                    <p>Eyeshadow Pallate<br>
+                        $200</p>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+</html>
