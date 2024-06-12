@@ -10,6 +10,7 @@
     display: flex;
     margin: auto;
     padding-top: 15px;
+    cursor: pointer;
 }
 .logo img{
     height: 60px;
@@ -83,6 +84,7 @@
     color: #fff;
     font-size: large;
     padding: 30px;
+    cursor: pointer;
 }
 .navbar2 ul li{
     text-decoration: none;
@@ -103,14 +105,41 @@
 }
 .card{
     display: flex;
+    background: linear-gradient(#fcc778,#e99d2c,#ff9900);
+    padding-top: 50px;
+}
+.card a{
+    text-decoration: none;
+    color: #000000;
 }
 .product{
-    margin: 70px;
-    background-color: #ff9900;
-    border-radius: 5px;
+    margin: 42px;
+    border: 1px solid rgb(196, 191, 191);
+    background-color: #fff;
 }
 .product img{
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
+    padding: 10px;
     background-color: #f2f2f2;
+    border-bottom: 1px solid rgb(196, 191, 191);
+}
+.product p{
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.product button{
+    text-align: center;
+    text-decoration: none;
+    height: 50px;
+    width: 120px;
+    background-color: rgb(255, 251, 0);
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    margin: 30px;
+    margin-left: 60px;
+    cursor: pointer;
 }
